@@ -1,5 +1,7 @@
 # Mediagoblin Theme
 
+* [Theme in use here](http://media.chromic.org)
+
 ## Main page
 
 ![Screenshot](https://github.com/chimo/Mediagoblin-Theme/raw/master/screenshot.png)
