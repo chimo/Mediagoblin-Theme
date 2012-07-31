@@ -1,6 +1,12 @@
 # Mediagoblin Theme
 
+## Main page
+
 ![Screenshot](https://github.com/chimo/Mediagoblin-Theme/raw/master/screenshot.png)
+
+## Media page
+
+![Screenshot](https://github.com/chimo/Mediagoblin-Theme/raw/master/screenshot2.png)
 
 ## Links
 
