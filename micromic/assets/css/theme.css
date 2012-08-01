@@ -46,7 +46,7 @@ h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
 
 .media_pane, .context {margin-left: 10px;}
 .media_pane {margin-right: 0;}
-.media_pane h2 {margin-bottom: 12px;}
+.media_pane h2 {margin: 0 0 12px 0;}
 .media_pane p:empty {display: none;}
 .media_title {padding-left: 0;}
 .mediagoblin_content {background: #FFF; padding: 10px 0 12px 0;}
@@ -54,7 +54,7 @@ h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
 .media_thumbnail {background: #EEE; border: 1px solid #E4E4E4; margin: 0 3px 10px;}
 .media_thumbnail a {color: #000;}
 
-.media_image_container {margin-bottom: 12px;}
+.media_image_container {margin-bottom: 12px; text-align: center;}
 
 .navigation {margin-right: 5px;}
 .navigation_button {background-color: #363636; color: #FFF; width: 130px;}
@@ -65,7 +65,7 @@ a.navigation_button {color: #C3C3C3; font-weight: bold;}
 .pagination {margin-top: 12px;}
 .pagination p {margin-bottom: 0;}
 
-footer {background: #000; color: #FFF; margin-bottom: 30px;}
+footer {background: #000; color: #FFF; height: auto; margin-bottom: 30px;}
 
 /* profile page */
 .mediagoblin_content h1 {color: #000; margin: 0 0 0 10px; width: auto;}
