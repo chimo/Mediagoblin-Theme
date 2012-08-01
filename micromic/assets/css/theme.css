@@ -26,13 +26,13 @@ h1 a {
 }
 h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
 
-.chimo_nav {
+.custom_nav {
   display: inline-block;
   margin: 8px 8px 8px 20px;
 }
 
 .header_right a {color: #5A859F;}
-.chimo_nav a {
+.custom_nav a {
   color: #5A859F;
   font-family: Georgia;
   font-size: 21px;
@@ -40,9 +40,9 @@ h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
   text-decoration: none;
 }
 
-.chimo_nav a:hover, .chimo_nav a:active, .chimo_nav a:focus {text-decoration: underline;}
+.custom_nav a:hover, .custom_nav a:active, .custom_nav a:focus {text-decoration: underline;}
 
-.chimo_nav li {margin-left: 15px; margin-right: 15px;}
+.custom_nav li {margin-left: 15px; margin-right: 15px;}
 
 .media_pane, .context {margin-left: 10px;}
 .media_pane {margin-right: 0;}

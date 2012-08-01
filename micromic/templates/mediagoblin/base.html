@@ -47,26 +47,21 @@
       {% block mediagoblin_header %}
         <header>
           {% block mediagoblin_logo %}
-<!--            <a class="logo"
-               href="{{ request.urlgen('index') }}"
-               ><img src="{{ request.staticdirect('/images/logo.png') }}"
-               alt="{% trans %}MediaGoblin logo{% endtrans %}" /></a> -->
-   
-            <ul class="chimo_nav">
+            <ul class="custom_nav">
               <li>
-                <a title="About Chimo" href="http://chimo.chromic.org/about/">about</a>
+                <a href="#">about</a>
               </li>
               <li>
-                <a title="Chimo's Blog" href="http://chimo.chromic.org">blog</a>
+                <a href="#">blog</a>
               </li>
               <li>
-                <a title="Chimo's microblog" href="http://sn.chromic.org">µblog</a>
+                <a href="#">µblog</a>
               </li>
               <li>
-                <a title="Pictures" href="http://media.chromic.org">media</a>
+                <a href="#">media</a>
               </li>
               <li>
-                <a title="Software" href="http://chimo.chromic.org/code/">code</a>
+                <a href="#">code</a>
               </li>
             </ul>
           {% endblock mediagoblin_logo %}
