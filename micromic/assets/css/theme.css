@@ -1,7 +1,7 @@
 body {background: url(../images/bg.gif); color: #000;}
 a {color: #008AAB; text-decoration: none;}
 a:hover, a:active, a:focus {text-decoration: underline;}
-h2 {color: #000; margin-top: 0; padding: 0 20px;}
+h2 {color: #000; margin: 0 0 0 10px; padding: 0;}
 
 h1, header {
   background-color: #000;
@@ -15,7 +15,7 @@ h1 {
   margin: 10px auto;
 }
 
-h1 a {
+body > h1 a {
   color: #757575;
   font-family: Georgia;
   font-style: italic;
@@ -50,7 +50,7 @@ h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
 .media_pane p:empty {display: none;}
 .media_title {padding-left: 0;}
 .mediagoblin_content {background: #FFF; padding-top: 10px;}
-.thumb_gallery {background: transparent;}
+.thumb_gallery {background: transparent; margin-top: 12px;}
 .media_thumbnail {background: #EEE;}
 .media_thumbnail a {color: #000;}
 
@@ -67,7 +67,7 @@ footer {background: #000; color: #FFF; margin-bottom: 30px;}
 /* profile page */
 .mediagoblin_content h1 {color: #000; margin: 0 0 0 10px; width: auto;}
 .profile_sidebar {margin: 0 0 0 10px;}
-.profile_showcase .media_icon {padding-left: 16px; height: 16px; width: 1px; overflow: hidden; background: url(../images/rss.png) no-repeat;}
+.media_icon {padding-left: 16px; height: 16px; width: 1px; overflow: hidden; background: url(../images/rss.png) no-repeat;}
 
 /* Sign-in form, edit media form */
 .form_box_xl, .form_box {background: #FFF; border: 0;}
