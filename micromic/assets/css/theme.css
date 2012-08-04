@@ -55,6 +55,7 @@ h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
 .media_thumbnail a {color: #000;}
 
 .media_image_container {margin-bottom: 12px; text-align: center;}
+.ascii-wrapper {text-align: left;}
 
 .navigation {margin-right: 5px;}
 .navigation_button {background-color: #363636; color: #FFF; width: 130px;}
