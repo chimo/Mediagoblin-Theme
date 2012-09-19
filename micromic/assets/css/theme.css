@@ -12,10 +12,10 @@ h1, header {
 
 h1 {
   background: transparent;
-  margin: 10px auto;
+  margin: 10px auto 0 auto;
 }
 
-body > h1 a {
+body > h1 a, .tagline a {
   color: #757575;
   font-family: Georgia;
   font-style: italic;
@@ -26,12 +26,17 @@ body > h1 a {
 }
 h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
 
+.tagline {margin: 0 auto 10px auto; max-width: 940px;}
+.tagline a {font-size: 19px;}
+
 .custom_nav {
   display: inline-block;
   margin: 8px 8px 8px 20px;
 }
 
-.header_right a {color: #5A859F;}
+.ascii-wrapper {text-align: left;}
+
+.dropdown_items a {display: block;}
 .custom_nav a {
   color: #5A859F;
   font-family: Georgia;
@@ -51,11 +56,10 @@ h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
 .media_title {padding-left: 0;}
 .mediagoblin_content {background: #FFF; padding: 10px 0 12px 0;}
 .thumb_gallery {background: transparent; margin-top: 12px;}
-.media_thumbnail {background: #EEE; border: 1px solid #E4E4E4; margin: 0 3px 10px;}
-.media_thumbnail a {color: #000;}
+.collection_thumbnail, .media_thumbnail {background: #EEE; border: 1px solid #E4E4E4; margin: 0 3px 10px; text-align: center;}
+.collection_thumbnail a, .media_thumbnail a {color: #000;}
 
 .media_image_container {margin-bottom: 12px; text-align: center;}
-.ascii-wrapper {text-align: left;}
 
 .navigation {margin-right: 5px;}
 .navigation_button {background-color: #363636; color: #FFF; width: 130px;}
@@ -67,6 +71,10 @@ a.navigation_button {color: #C3C3C3; font-weight: bold;}
 .pagination p {margin-bottom: 0;}
 
 footer {background: #000; color: #FFF; height: auto; margin-bottom: 30px;}
+
+/* collection page */
+.mediagoblin_content > a.button_action {margin-left: 10px;}
+.mediagoblin_content > p {margin: 10px;}
 
 /* profile page */
 .mediagoblin_content h1 {color: #000; margin: 0 0 0 10px; width: auto;}
