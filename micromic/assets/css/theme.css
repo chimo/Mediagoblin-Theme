@@ -36,7 +36,10 @@ h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
 
 .ascii-wrapper {text-align: left;}
 
-.dropdown_items a {display: block;}
+.header_right {color: #999; font-weight: bold;}
+.header_right a {color: #5A859F;}
+.header_right .button_action {color: #C3C3C3;}
+.header_right .button_action_highlight {color: #283F35;}
 .custom_nav a {
   color: #5A859F;
   font-family: Georgia;
