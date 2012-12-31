@@ -58,8 +58,9 @@ h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
 .media_pane p:empty {display: none;}
 .media_title {padding-left: 0;}
 .mediagoblin_content {background: #FFF; padding: 10px 0 12px 0;}
+.mediagoblin_content ul {margin: 0 0 10px 32px;}
 .thumb_gallery {background: transparent; margin-top: 12px;}
-.collection_thumbnail, .media_thumbnail {background: #EEE; height: auto; margin: 0 3px 10px; text-align: center; width: 180px;}
+.collection_thumbnail, .media_thumbnail {background: #EEE; border: none; height: auto; margin: 0 3px 10px; text-align: center; width: 180px;}
 .collection_thumbnail a, .media_thumbnail a {color: #000;}
 
 .media_image_container {margin-bottom: 12px; text-align: center;}
