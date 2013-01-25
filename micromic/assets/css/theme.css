@@ -48,6 +48,12 @@ h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
   text-decoration: none;
 }
 
+.header_dropdown {padding: 10px;}
+.header_dropdown li {margin-bottom: 5px;}
+.header_dropdown p {float: right; text-align: right;}
+.header_dropdown p span {display: block;}
+.dropdown_title {color: #C3C3C3;}
+
 .custom_nav a:hover, .custom_nav a:active, .custom_nav a:focus {text-decoration: underline;}
 
 .custom_nav li {display: inline; margin-left: 15px; margin-right: 15px;}
