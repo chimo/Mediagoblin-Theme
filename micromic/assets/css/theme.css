@@ -21,7 +21,7 @@ body > h1 a, .tagline a {
   font-style: italic;
   font-size: 39px;
   font-weight: normal;
-  padding-left: 20px;
+  padding-left: 10px;
   text-decoration: none;
 }
 h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
@@ -31,7 +31,7 @@ h1 a:hover, h1 a:active, h1 a:focus {text-decoration: underline;}
 
 .custom_nav {
   display: inline-block;
-  margin: 8px 8px 8px 20px;
+  margin: 8px 8px 8px 0;
 }
 
 .ascii-wrapper {text-align: left;}
