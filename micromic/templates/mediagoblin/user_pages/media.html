@@ -132,7 +132,7 @@
                 {%- trans formatted_time=timesince(comment.created) -%}
                   {{ formatted_time }} ago
                 {%- endtrans -%}
-              </span></a>:
+              </time></a>:
           </div>
           <div class="comment_content">
             {% autoescape False -%}
@@ -152,7 +152,7 @@
         {%- trans formatted_time=timesince(media.created) -%}    
           {{ formatted_time }} ago
         {%- endtrans -%}
-    </span></p>
+    </time></p>
 
     {% block mediagoblin_after_added_sidebar %}
     {% endblock %}
